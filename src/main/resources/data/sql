@@ -1,0 +1,4 @@
+
+INSERT INTO product (id, nombre, description, precio, categoria) VALUES (1, 'Producto 1', 'Descripción del producto 1', 19.99, 'Categoría 1');
+INSERT INTO product (id, nombre, description, precio, categoria) VALUES (2, 'Producto 2', 'Descripción del producto 2', 29.99, 'Categoría 2');
+INSERT INTO product (id, nombre, description, precio, categoria) VALUES (3, 'Producto 3', 'Descripción del producto 3', 39.99, 'Categoría 3');

@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "ab0c6169-a52e-43e5-af24-b9b53a0ee803",
+		"name": "Product-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9469127"
+	},
+	"item": [
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \n    \"nombre\":\"Cassio wallet val\",\n    \"description\":\"Reloj sstv marca protegida\",\n    \"precio\":\"2.10\",\n    \"categoria\": \"CATEGORIA 10\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/product-api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product-api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \n    \"nombre\":\"Cassio wallet val\",\n    \"description\":\"Reloj sstv marca protegida\",\n    \"precio\":\"2.10\",\n    \"categoria\": \"CATEGORIA 10\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/product-api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product-api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findBy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \n    \"nombre\":\"Cassio wallet val\",\n    \"description\":\"Reloj sstv marca protegida\",\n    \"precio\":\"2.10\",\n    \"categoria\": \"CATEGORIA 10\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/product-api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product-api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \n    \"nombre\":\"Cassio wallet val\",\n    \"description\":\"Reloj sstv marca protegida\",\n    \"precio\":\"2.10\",\n    \"categoria\": \"CATEGORIA 10\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/product-api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product-api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
